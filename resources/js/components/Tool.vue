@@ -24,6 +24,9 @@
               <th class="text-left">
                 <span>{{ __("Name") }}</span>
               </th>
+              <th class="text-left">
+                <span>{{ __("Token") }}</span>
+              </th>
               <th class="text-left" v-if="panel.options.showAbilities">
                 <span>{{ __("Abilities") }}</span>
               </th>

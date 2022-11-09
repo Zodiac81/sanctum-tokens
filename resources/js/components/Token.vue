@@ -5,6 +5,11 @@
         <span class="whitespace-no-wrap">{{ token.name }}</span>
       </div>
     </td>
+    <td>
+      <div class="text-left text-left" via-resource="users" via-resource-id="1">
+        <span class="whitespace-no-wrap">{{ token.token }}</span>
+      </div>
+    </td>
     <td v-if="showAbilities">
       <div class="text-left text-left" via-resource="users" via-resource-id="1">
         <span class="whitespace-no-wrap">{{ token.abilities }}</span>
