@@ -40,15 +40,6 @@
                         />
                       </svg>
                     </div>
-                    <div class="flex items-center ml-3">
-                      <p class="text-sm leading-5 text-yellow-700">
-                        {{
-                          __(
-                            "Make sure to copy your new personal access token now. You won't be able to see it again!",
-                          )
-                        }}
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
